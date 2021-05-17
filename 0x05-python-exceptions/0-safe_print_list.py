@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
-    sum = 0
+    C = 0
     for i in range(0, x):
         try:
-            print("{:d}".format(my_list[i]))
-            sum += 1
-            except:
-                print()
-                return sum
+            print("{:d}".format(my_list[i]), end="")
+            C += 1
+        except:
+            pass
+    print()
+    return C
