@@ -10,4 +10,3 @@ class Square():
         if size < 0:
             raise ValueError
         self.__size = size
-
