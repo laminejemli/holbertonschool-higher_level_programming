@@ -11,7 +11,8 @@ class Square:
         """Sets the square
         Attributes:
             size (int): size of a side of the square
-        Returns: non
+        Returns:
+            None
         """
         self.size = size
 
