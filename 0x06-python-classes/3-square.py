@@ -2,9 +2,6 @@
 """ module is the beginning of classes """
 
 
-from typing import Sized
-
-
 class Square():
     """ class Square that defines a square """
     def __init__(self, size=0):
