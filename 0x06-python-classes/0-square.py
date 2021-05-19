@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""
+""" module represent a square class """
 
 
 class Square:
-    """Class for empty square."""
+    """ Represents an empty square. """
     pass
