@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-class Square:
-    """ module represent a square class 
-    new attribute: size """
+""" module into classes """
 
-    def __init__(self, size):
-        """ Initializes the size paramater. """
+
+class Square:
+    """ a class that reprenst a square """
+    def __init__(self, size=0):
         self.__size = size
